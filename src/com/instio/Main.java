@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         HashMap<String, User> users = new HashMap();
-        AbstractList<Message> messages = new ArrayList();
+        ArrayList<Message> messages = new ArrayList();
 
         addTestUsers(users);
         addTestMessages(messages);
